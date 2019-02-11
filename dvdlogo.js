@@ -67,7 +67,7 @@ function imgSelector()
      if(imgSrc == 7)
      imgSrc--;
      if(imgSrc == 0)
-     imgSrc++
+     imgSrc++;
  }
  prevImgSrc = imgSrc;
  return imgSrc;
