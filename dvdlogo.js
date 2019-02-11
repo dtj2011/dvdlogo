@@ -11,13 +11,13 @@
     var yspeed = 1;
     var img = new Image();
     var prevImgSrc = 0;
-    var imgStr = ["F:\\webproject\\imgfiles\\dvdproject\\dvdlblue.png",
-     "F:\\webproject\\imgfiles\\dvdproject\\dvdblue.png",
- "F:\\webproject\\imgfiles\\dvdproject\\dvdbrown.png",
- "F:\\webproject\\imgfiles\\dvdproject\\dvdgold.png",
- "F:\\webproject\\imgfiles\\dvdproject\\dvdgreen.png",
-  "F:\\webproject\\imgfiles\\dvdproject\\dvdred.png",
- "F:\\webproject\\imgfiles\\dvdproject\\dvdviolet.png"];
+    var imgStr = ["dvdlblue.png",
+     "dvdblue.png",
+ "dvdbrown.png",
+ "dvdgold.png",
+ "dvdgreen.png",
+  "dvdred.png",
+ "dvdviolet.png"];
  var imgStrlen = imgStr.length;
     img.src = imgStr[0];
        context.drawImage(img,x,y);
