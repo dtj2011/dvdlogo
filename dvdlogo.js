@@ -28,7 +28,7 @@
 
 function draw()
 {
-    context.clearRect(x - Math.abs(xspeed),y - Math.abs(yspeed),xwidth + 12,ywidth + 12); //cure for mkc anti-aliasing
+    context.clearRect(x - Math.abs(xspeed),y - Math.abs(yspeed),xwidth + 12,ywidth + 12); //cure for mkc aliasing
     if(x + xwidth >= canvas.width)
     {
         img.src = imgStr[imgSelector()];
